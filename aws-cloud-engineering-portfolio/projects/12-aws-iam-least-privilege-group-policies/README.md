@@ -1,24 +1,3 @@
-# Core Security Concepts
-
-### 1. Repository Name
-`aws-iam-least-privilege-group-policies`
-
-### 2. Project Category
-Security & Identity / IAM
-
-### 3. Professional Portfolio Description
-Implemented least-privilege access control for a support-engineering team using an IAM group with scoped AWS managed policies, granting read-only access to specific services rather than broad permissions.
-
-### 4. Recommended Repository Structure
-```text
-aws-iam-least-privilege-group-policies/
-├── README.md
-└── architecture/
-    └── iam-group-policy-enforcement.png
-```
-
-### 5. Complete README.md
-```markdown
 # IAM Least-Privilege Access Control for Support Engineers
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -73,21 +52,3 @@ design and verification.
 - Enforce MFA for the support-engineer user/group.
 - Replace or supplement the managed policy with a scoped custom policy limiting actions to specific
   resource ARNs or tags, rather than account-wide read access.
-```
-
-### 6–9. Details
-Diagram filename: `iam-group-policy-enforcement.png`; Title: "IAM Group Policy Enforcement — Allowed vs Denied Actions"; GitHub caption: "Least-privilege IAM group policy allowing read-only EC2/RDS actions while denying mutating actions." LinkedIn caption: "Implemented least-privilege IAM access for a support team, restricting them to read-only EC2/RDS actions."
-
-### 10. LinkedIn Portfolio Description
-Implemented least-privilege IAM access control for a support-engineering team, scoping an IAM group to read-only EC2 access and independently extending it to read-only RDS access, while explicitly verifying that mutating actions remained denied. Skills: AWS IAM, least-privilege access design, managed policies. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-IAM groups/policies, least-privilege design, access verification.
-
-### 12. Technical Weaknesses and Gaps
-Relies entirely on broad AWS managed policies rather than resource-scoped custom policies — genuinely least-privilege design would typically go further; worth being upfront that this is "AWS-managed-policy-level" least privilege, not resource-ARN-scoped.
-
-### 13. Recommended Improvements
-Write and attach a custom, resource-scoped policy; enforce MFA; document key rotation policy.
-
----
