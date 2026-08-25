@@ -1,26 +1,3 @@
-# First NoSQL Database
-
-### 1. Repository Name
-`aws-dynamodb-viewer-behavior-store`
-
-### 2. Project Category
-Databases / NoSQL
-
-### 3. Professional Portfolio Description
-Implemented Amazon DynamoDB to store and query viewer behavior/device analytics data for a video-streaming use case, using a composite primary key and a flexible, per-item schema.
-
-### 4. Recommended Repository Structure
-```text
-aws-dynamodb-viewer-behavior-store/
-├── README.md
-├── architecture/
-│   └── dynamodb-data-flow.png
-└── documentation/
-    └── table-schema-uservideohistory.md
-```
-
-### 5. Complete README.md
-```markdown
 # DynamoDB Viewer Behavior Data Store
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -78,21 +55,3 @@ NoSQL data.
 ## Future Improvements
 - Document capacity mode and estimate cost at scale.
 - Add a GSI (e.g., on `videoId`) to support content-centric queries, not just user-centric ones.
-```
-
-### 6–9. Details
-Diagram filename: `dynamodb-data-flow.png`; Title: "DynamoDB UserVideoHistory Data Model and Flow"; GitHub caption: "DynamoDB table design for flexible-schema viewer behavior data." LinkedIn caption: "Modeled viewer-behavior analytics data in DynamoDB using a composite key and flexible per-item schema."
-
-### 10. LinkedIn Portfolio Description
-Designed and implemented a DynamoDB table for viewer behavior/device analytics using a composite partition/sort key and per-item flexible schema, then extended it by adding a new attribute type to an existing record structure. Skills: Amazon DynamoDB, NoSQL data modeling. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-DynamoDB, NoSQL modeling, composite keys.
-
-### 12. Technical Weaknesses and Gaps
-No indexing strategy beyond the base table; capacity mode unstated — both are standard interview questions for a DynamoDB project and currently unanswerable from the material.
-
-### 13. Recommended Improvements
-Document capacity mode; add a GSI and explain the access pattern it serves.
-
----
