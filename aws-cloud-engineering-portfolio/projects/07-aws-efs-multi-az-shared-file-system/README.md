@@ -1,26 +1,3 @@
-# File Systems in the Cloud
-
-### 1. Repository Name
-`aws-efs-multi-az-shared-file-system`
-
-### 2. Project Category
-Storage / Shared File Systems
-
-### 3. Professional Portfolio Description
-Implemented Amazon EFS as a fully managed, elastic file system shared across multiple EC2 instances in different Availability Zones, validating concurrent read/write access from separate hosts.
-
-### 4. Recommended Repository Structure
-```text
-aws-efs-multi-az-shared-file-system/
-├── README.md
-├── architecture/
-│   └── efs-multi-az-topology.png
-└── documentation/
-    └── mount-target-validation.md
-```
-
-### 5. Complete README.md
-```markdown
 # Amazon EFS Multi-AZ Shared File System
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -84,21 +61,3 @@ across EC2 instances.
 ## Future Improvements
 - Document/enable encryption in transit for the NFS mounts.
 - Document EFS lifecycle management (Infrequent Access) for cost optimization.
-```
-
-### 6–9. Details
-Diagram filename: `efs-multi-az-topology.png`; Title: "EFS Shared File System Across Three Availability Zones"; GitHub caption: "Multi-AZ EFS mount topology shared by three EC2 web servers." LinkedIn caption: "Set up a shared, multi-AZ EFS file system across three EC2 instances and validated cross-instance file consistency."
-
-### 10. LinkedIn Portfolio Description
-Configured Amazon EFS as a shared, multi-AZ file system across EC2 web servers and validated concurrent read/write access, then independently extended the setup to a third instance in a third Availability Zone. Skills: Amazon EFS, multi-AZ storage design, EC2. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-EFS, multi-AZ shared storage, EC2 integration.
-
-### 12. Technical Weaknesses and Gaps
-No security group / encryption configuration documented for the NFS layer — a real gap for a storage-security discussion in an interview.
-
-### 13. Recommended Improvements
-Document/enable encryption in transit; add lifecycle policy for cost.
-
----
