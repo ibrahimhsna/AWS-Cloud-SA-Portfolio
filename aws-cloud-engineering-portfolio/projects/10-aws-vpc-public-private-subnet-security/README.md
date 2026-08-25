@@ -1,24 +1,3 @@
-# VPC Network Segmentation with Security Groups
-
-### 1. Repository Name
-`aws-vpc-public-private-subnet-security`
-
-### 2. Project Category
-Networking & Security / VPC Fundamentals
-
-### 3. Professional Portfolio Description
-Designed a VPC with segmented public and private subnets, using security groups as stateful firewalls to control access between a public web server and a private database instance.
-
-### 4. Recommended Repository Structure
-```text
-aws-vpc-public-private-subnet-security/
-├── README.md
-└── architecture/
-    └── vpc-subnet-security-group-topology.png
-```
-
-### 5. Complete README.md
-```markdown
 # VPC Public/Private Subnet Segmentation with Security Groups
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn).
@@ -75,21 +54,3 @@ security reasoning for a two-tier application.
 - Explicitly document security group rules with source references (SG-to-SG, not just port/protocol).
 - Add a NAT Gateway for the private subnet if outbound internet access is needed by the database tier.
 - Add Network ACLs as a second layer of defense and document the difference from security groups.
-```
-
-### 6–9. Details
-Diagram filename: `vpc-subnet-security-group-topology.png`; Title: "VPC Public/Private Subnet Topology with Security Groups"; GitHub caption: "Two-tier VPC design isolating a database in a private subnet behind security groups." LinkedIn caption: "Designed a VPC with public/private subnet segmentation and security groups to isolate a database tier from the internet."
-
-### 10. LinkedIn Portfolio Description
-Designed a two-tier VPC architecture separating a public web server from a private database using subnet segmentation and security groups scoped to HTTP and MySQL ports respectively. Skills: Amazon VPC, subnetting, security groups, network security fundamentals. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-VPC subnetting, security groups, network segmentation.
-
-### 12. Technical Weaknesses and Gaps
-Security group source scoping is not documented (is 3306 open to any VPC resource, or restricted to the web SG?) — this is the exact kind of detail that separates "I clicked through a lab" from "I understand least-privilege networking," so it needs to be nailed down before publishing.
-
-### 13. Recommended Improvements
-Document exact SG source rules; add NACLs; add a NAT Gateway if applicable.
-
----
