@@ -10,7 +10,7 @@
 
 This repository consolidates 17 individual AWS projects into a single, coherent portfolio — organized by domain, documented to a consistent standard, and indexed for easy review by recruiters, hiring managers, and technical interviewers.
 
-Each project lives in its own self-contained folder under [`projects/`](projects/) with its own `README.md` and architecture diagram, so it can be read independently. This root README ties them together as one unified body of work.
+Each project lives in its own self-contained folder under projects with its own `README.md` and architecture diagram, so it can be read independently. This root README ties them together as one unified body of work.
 
 | | |
 |---|---|
@@ -60,7 +60,7 @@ Each project lives in its own self-contained folder under [`projects/`](projects
 |---|---|---|---|
 | 16 | Cloud Economics | AWS Pricing Calculator |
 
-⭐ = highest-recommended project to review first (see [Master Strategy](docs/MASTER-STRATEGY.md))
+⭐ = highest-recommended project to review first
 
 ---
 
@@ -113,14 +113,6 @@ Where information wasn't available from the original lab materials (e.g., specif
 | **Security & Identity** | IAM groups/policies, least-privilege access design, network segmentation, bucket policy scoping |
 | **Generative AI / ML** | Amazon Bedrock (prompting, Guardrails, Knowledge Bases/RAG, Prompt Management), Amazon SageMaker (deployment, SDK), OpenSearch Serverless (vector search), Titan Embeddings |
 | **Cost & Operations** | AWS Pricing Calculator, cost estimation methodology, elastic vs. static provisioning economics |
-
----
-
-## Master Portfolio Strategy
-
-For the full recruiter-facing strategy — including which projects to pin/feature, GitHub profile structure, LinkedIn Featured section plan, and a suggested publishing order — see:
-
-📄 **[docs/MASTER-STRATEGY.md](docs/MASTER-STRATEGY.md)**
 
 ---
 
