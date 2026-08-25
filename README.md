@@ -25,7 +25,7 @@ Each project lives in its own self-contained folder under projects with its own 
 
 ### 🖥️ Compute & Availability
 | # | Project | AWS Services |
-|---|---|---|---|
+|---|---|---|
 | 01 | Auto-Healing and Scaling Applications | EC2 Auto Scaling, CloudWatch |
 | 03 | Highly Available Web Applications | ALB, ASG, Route 53, CloudFront, RDS Multi-AZ |
 | 14 | Computing Solutions | EC2, Systems Manager |
@@ -33,7 +33,7 @@ Each project lives in its own self-contained folder under projects with its own 
 
 ### 🗄️ Data & Storage
 | # | Project | AWS Services |
-|---|---|---|---|
+|---|---|---|
 | 06 | First NoSQL Database | DynamoDB |
 | 07 | File Systems in the Cloud | EFS |
 | 09 | Databases in Practice | RDS Multi-AZ, Read Replicas |
@@ -41,14 +41,14 @@ Each project lives in its own self-contained folder under projects with its own 
 
 ### 🔐 Security & Networking
 | # | Project | AWS Services | 
-|---|---|---|---|
+|---|---|---|
 | 10 | VPC Network Segmentation with Security Groups | VPC, Subnets, Security Groups | 
 | 12 | Core Security Concepts | IAM Groups & Policies | 
 | 13 | Connecting VPCs | VPC Peering, Route Tables | 
 
 ### 🤖 Generative AI
 | # | Project | AWS Services | 
-|---|---|---|---|
+|---|---|---|
 | 02 | Secure Conversational AI with Guardrails | Amazon Bedrock Guardrails | 
 | 04 | Get Started with Generative AI | SageMaker AI, SageMaker Studio | 
 | 05 | Generate Code for a Webpage | Bedrock, EC2, Systems Manager | 
@@ -57,7 +57,7 @@ Each project lives in its own self-contained folder under projects with its own 
 
 ### 💰 Cost & Economics
 | # | Project | AWS Services |
-|---|---|---|---|
+|---|---|---|
 | 16 | Cloud Economics | AWS Pricing Calculator |
 
 ⭐ = highest-recommended project to review first
