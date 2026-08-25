@@ -1,24 +1,3 @@
-# Cloud Economics
-
-### 1. Repository Name
-`aws-ec2-cost-estimation-elastic-scaling`
-
-### 2. Project Category
-Cost Management / Cloud Economics
-
-### 3. Professional Portfolio Description
-Built cost estimates for varying EC2 architectures based on peak demand, comparing static (traditional IT) provisioning against elastic, Auto-Scaling-based provisioning, and re-estimated cost under a different instance type.
-
-### 4. Recommended Repository Structure
-```text
-aws-ec2-cost-estimation-elastic-scaling/
-├── README.md
-└── architecture/
-    └── static-vs-elastic-cost-model.png
-```
-
-### 5. Complete README.md
-```markdown
 # EC2 Cost Estimation: Static vs. Elastic Provisioning
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -63,21 +42,3 @@ provisioning economics, Total Cost of Ownership (TCO) reasoning fundamentals.
 - Include the actual saved AWS Pricing Calculator estimate links/screenshots and dollar figures for
   both instance types, since the estimate output itself is the actual deliverable of this lab and
   is currently missing from the documentation.
-```
-
-### 6–9. Details
-Diagram filename: `static-vs-elastic-cost-model.png`; Title: "Static vs. Elastic Provisioning Cost Model"; GitHub caption: "Comparing static and elastic provisioning cost/capacity trade-offs for an EC2 architecture." LinkedIn caption: "Estimated EC2 costs under different instance types and reasoned through static vs. elastic provisioning trade-offs."
-
-### 10. LinkedIn Portfolio Description
-Built a cost estimate for an Auto Scaling EC2 architecture using the AWS Pricing Calculator and analyzed the cost/capacity trade-offs of static versus elastic provisioning, then independently re-estimated cost under a different instance type (t2.micro). Skills: AWS cost estimation, cloud economics, Auto Scaling. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-AWS Pricing Calculator, cloud economics reasoning.
-
-### 12. Technical Weaknesses and Gaps
-No actual dollar figures or saved estimate links are documented — this is the weakest point of the repo, since the deliverable of a pricing exercise is the price, and that's currently absent.
-
-### 13. Recommended Improvements
-Add the real Pricing Calculator estimate links/numbers before publishing; this is a five-minute fix that meaningfully strengthens the repo.
-
----
