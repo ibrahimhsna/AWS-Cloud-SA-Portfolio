@@ -1,26 +1,3 @@
-# Highly Available Web Applications
-
-### 1. Repository Name
-`aws-multi-az-ha-web-architecture`
-
-### 2. Project Category
-Networking & Resilience / High Availability Web Architecture
-
-### 3. Professional Portfolio Description
-Deployed a web application across three Availability Zones behind an Application Load Balancer with health checks, Route 53 DNS, CloudFront caching, and a Multi-AZ RDS backend with automated failover.
-
-### 4. Recommended Repository Structure
-```text
-aws-multi-az-ha-web-architecture/
-├── README.md
-├── architecture/
-│   └── ha-architecture-diagram.png
-└── documentation/
-    └── failover-and-health-checks.md
-```
-
-### 5. Complete README.md
-```markdown
 # Highly Available Multi-AZ Web Application Architecture
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -87,21 +64,3 @@ content delivery, RDS Multi-AZ failover concepts, Route 53 DNS.
 ## Future Improvements
 - Document/diagram the VPC and security group layer explicitly.
 - Add HTTPS/ACM certificate to the ALB and document the security posture.
-```
-
-### 6–9. Details
-Diagram filename: `ha-architecture-diagram.png`; Title: "Multi-AZ Highly Available Web Architecture"; GitHub caption: "3-AZ web tier behind ALB with CloudFront/S3 and Multi-AZ RDS." LinkedIn caption: "Built a 3-AZ highly available web architecture with automated failover for compute and database."
-
-### 10. LinkedIn Portfolio Description
-Deployed a web application across three Availability Zones behind an Application Load Balancer with health checks, added CloudFront/S3 for cached content delivery, and configured Multi-AZ RDS for automated database failover — then extended the compute tier into a third AZ as an independent task. Skills: ALB, Auto Scaling, RDS Multi-AZ, CloudFront, Route 53. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-High availability architecture, ALB, ASG, RDS Multi-AZ, CDN.
-
-### 12. Technical Weaknesses and Gaps
-No VPC/security-group detail; no TLS story; "highly available" claim would be stronger with an explicit RTO/RPO discussion for the RDS failover, which is not documented.
-
-### 13. Recommended Improvements
-Diagram the network layer; add HTTPS; document failover test results if performed.
-
----
