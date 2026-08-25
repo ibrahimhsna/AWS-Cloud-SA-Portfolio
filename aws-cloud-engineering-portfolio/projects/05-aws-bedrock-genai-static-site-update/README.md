@@ -1,30 +1,3 @@
-# Generate Code for a Webpage
-
-### 1. Repository Name
-`aws-bedrock-genai-static-site-update`
-
-### 2. Project Category
-Generative AI / AI-Assisted Web Development
-
-### 3. Professional Portfolio Description
-Used Amazon Bedrock to generate HTML content (including a functional tic-tac-toe game) and deployed the AI-generated code to a live EC2-hosted web application via AWS Systems Manager Session Manager.
-
-### 4. Recommended Repository Structure
-```text
-aws-bedrock-genai-static-site-update/
-├── README.md
-├── architecture/
-│   └── genai-deployment-flow.png
-├── site/
-│   ├── index.html
-│   └── tictactoe.html
-└── documentation/
-    └── deployment-steps.md
-```
-*(`index.html` / `tictactoe.html` should only be committed if you actually retained the generated files — otherwise mark as Not documented and omit the `site/` folder.)*
-
-### 5. Complete README.md
-```markdown
 # AI-Generated Web Content Deployed to Amazon EC2 via Amazon Bedrock
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -84,21 +57,3 @@ Session Manager for secure instance access.
 ## Future Improvements
 - Add a basic code-review/lint step before deploying AI-generated HTML/JS.
 - Commit the actual generated files to the repo for full reproducibility.
-```
-
-### 6–9. Details
-Diagram filename: `genai-deployment-flow.png`; Title: "Bedrock-Generated Content Deployed to EC2 via Session Manager"; GitHub caption: "Generating web content with Amazon Bedrock and deploying it to EC2 without SSH." LinkedIn caption: "Used Amazon Bedrock to generate a working tic-tac-toe game and deployed it to EC2 via Session Manager — no SSH keys involved."
-
-### 10. LinkedIn Portfolio Description
-Used Amazon Bedrock to generate static web content and deployed it to an EC2-hosted application using AWS Systems Manager Session Manager (no SSH exposure), then independently generated and deployed a functional tic-tac-toe game the same way. Skills: Amazon Bedrock, EC2, Systems Manager, secure instance access. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-Bedrock prompting, EC2 hosting, Session Manager.
-
-### 12. Technical Weaknesses and Gaps
-No review/validation step for AI-generated code before deployment — worth acknowledging rather than ignoring, since it's a real production concern.
-
-### 13. Recommended Improvements
-Add a review checklist; commit actual generated files.
-
----
