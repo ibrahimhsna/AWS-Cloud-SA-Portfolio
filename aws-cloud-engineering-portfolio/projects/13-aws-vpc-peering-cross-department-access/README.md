@@ -1,24 +1,3 @@
-# Connecting VPCs
-
-### 1. Repository Name
-`aws-vpc-peering-cross-department-access`
-
-### 2. Project Category
-Networking / VPC Peering
-
-### 3. Professional Portfolio Description
-Implemented VPC peering to enable controlled cross-VPC communication between Marketing, Finance, and Developer VPCs, allowing specific departments to reach a Financial Services server without merging networks.
-
-### 4. Recommended Repository Structure
-```text
-aws-vpc-peering-cross-department-access/
-├── README.md
-└── architecture/
-    └── vpc-peering-topology.png
-```
-
-### 5. Complete README.md
-```markdown
 # Cross-Department VPC Peering
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -84,21 +63,3 @@ non-transitive peering behavior, multi-VPC network segmentation by department.
   Services server, not just VPC-level reachability.
 - Consider and document why VPC peering (vs. a Transit Gateway) is appropriate at this scale, and
   when that choice would need to change.
-```
-
-### 6–9. Details
-Diagram filename: `vpc-peering-topology.png`; Title: "Cross-Department VPC Peering Topology"; GitHub caption: "Non-transitive VPC peering connecting Marketing and Developer VPCs to a shared Finance VPC." LinkedIn caption: "Set up cross-department VPC peering with proper route-table configuration, connecting Marketing and Developer VPCs to a Finance VPC."
-
-### 10. LinkedIn Portfolio Description
-Implemented VPC peering and route-table configuration to give Marketing and Developer department VPCs controlled access to a server in a separate Finance VPC, independently extending the peering setup to the Developer VPC. Skills: Amazon VPC, VPC peering, route tables, network segmentation. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-VPC peering, route table configuration, multi-VPC design.
-
-### 12. Technical Weaknesses and Gaps
-Security-group-level access control at the destination server is undocumented — routing reachability alone is not the same as "properly secured," and this repo would benefit from stating that distinction explicitly rather than implying routing = access control.
-
-### 13. Recommended Improvements
-Document destination security group rules; discuss Transit Gateway as the scale-up alternative and why it wasn't needed here.
-
----
