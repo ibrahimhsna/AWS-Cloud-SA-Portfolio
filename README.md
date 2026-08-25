@@ -85,7 +85,7 @@ aws-cloud-engineering-portfolio/
         └── architecture/
 ```
 
-Each project folder is self-contained and could be extracted into its own standalone repository if desired — this monorepo structure is used purely to present the 17 projects as one coherent, browsable portfolio.
+Each project folder is self-contained and could be extracted into its own standalone repository if desired this monorepo structure is used purely to present the 17 projects as one coherent, browsable portfolio.
 
 ---
 
