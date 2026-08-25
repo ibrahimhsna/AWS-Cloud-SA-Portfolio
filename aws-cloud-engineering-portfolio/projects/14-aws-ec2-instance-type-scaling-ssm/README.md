@@ -1,25 +1,3 @@
-# Computing Solutions
-
-### 1. Repository Name
-`aws-ec2-instance-type-scaling-ssm`
-*(Note: this repo covers vertical resizing of a single EC2 instance and Session Manager access — distinct from Project 1's Auto Scaling group work, so keep them separate rather than merging.)*
-
-### 2. Project Category
-Compute / Instance Right-Sizing & Secure Access
-
-### 3. Professional Portfolio Description
-Selected an appropriate EC2 instance type based on workload attributes, connected to the instance securely via AWS Systems Manager (no SSH), and vertically scaled the instance from `t3.micro` to `m4.large` to improve performance.
-
-### 4. Recommended Repository Structure
-```text
-aws-ec2-instance-type-scaling-ssm/
-├── README.md
-└── architecture/
-    └── instance-connect-and-resize-flow.png
-```
-
-### 5. Complete README.md
-```markdown
 # EC2 Instance Type Selection, Secure Access, and Vertical Scaling
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -78,21 +56,3 @@ management (start/stop/resize), vertical scaling fundamentals.
 - Document the workload attributes and the specific reasoning for selecting `m4.large` over other
   general-purpose or compute-optimized types.
 - Benchmark before/after performance to substantiate the "enhance performance" goal with data.
-```
-
-### 6–9. Details
-Diagram filename: `instance-connect-and-resize-flow.png`; Title: "EC2 Secure Connection Paths and Instance Resize Flow"; GitHub caption: "Multiple secure paths to an EC2 instance, followed by a vertical resize from t3.micro to m4.large." LinkedIn caption: "Connected securely to an EC2 instance via Systems Manager and vertically scaled it from t3.micro to m4.large."
-
-### 10. LinkedIn Portfolio Description
-Selected an EC2 instance type based on workload attributes, connected securely via AWS Systems Manager, and independently resized the instance from t3.micro to a larger m4.large general-purpose instance to improve application performance. Skills: Amazon EC2, Systems Manager, instance right-sizing. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-EC2 instance selection, Systems Manager, vertical scaling.
-
-### 12. Technical Weaknesses and Gaps
-No before/after performance data to actually substantiate the "enhance performance" claim from the original solution request — currently an assumption, not a demonstrated result.
-
-### 13. Recommended Improvements
-Add a simple before/after benchmark (even a basic load test) to make the performance claim verifiable.
-
----
