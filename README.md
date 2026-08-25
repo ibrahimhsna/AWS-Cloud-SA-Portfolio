@@ -24,41 +24,41 @@ Each project lives in its own self-contained folder under [`projects/`](projects
 ## Project Index
 
 ### 🖥️ Compute & Availability
-| # | Project | AWS Services | Repo |
+| # | Project | AWS Services |
 |---|---|---|---|
-| 01 | Auto-Healing and Scaling Applications | EC2 Auto Scaling, CloudWatch | [projects/01-aws-ec2-auto-scaling-scheduled-policies](https://github.com/ibrahimhsna/projects-01-aws-ec2-auto-scaling-scheduled-policies) |
-| 03 | Highly Available Web Applications | ALB, ASG, Route 53, CloudFront, RDS Multi-AZ | [`projects/03-aws-multi-az-ha-web-architecture`](projects/03-aws-multi-az-ha-web-architecture) |
-| 14 | Computing Solutions | EC2, Systems Manager | [`projects/14-aws-ec2-instance-type-scaling-ssm`](projects/14-aws-ec2-instance-type-scaling-ssm) |
-| 15 | Cloud First Steps | EC2, EBS, Multi-AZ | [`projects/15-aws-multi-az-ec2-user-data-deployment`](projects/15-aws-multi-az-ec2-user-data-deployment) |
+| 01 | Auto-Healing and Scaling Applications | EC2 Auto Scaling, CloudWatch |
+| 03 | Highly Available Web Applications | ALB, ASG, Route 53, CloudFront, RDS Multi-AZ |
+| 14 | Computing Solutions | EC2, Systems Manager |
+| 15 | Cloud First Steps | EC2, EBS, Multi-AZ | 
 
 ### 🗄️ Data & Storage
-| # | Project | AWS Services | Repo |
+| # | Project | AWS Services |
 |---|---|---|---|
-| 06 | First NoSQL Database | DynamoDB | [`projects/06-aws-dynamodb-viewer-behavior-store`](projects/06-aws-dynamodb-viewer-behavior-store) |
-| 07 | File Systems in the Cloud | EFS | [`projects/07-aws-efs-multi-az-shared-file-system`](projects/07-aws-efs-multi-az-shared-file-system) |
-| 09 | Databases in Practice | RDS Multi-AZ, Read Replicas | [`projects/09-aws-rds-multi-az-read-replica-setup`](projects/09-aws-rds-multi-az-read-replica-setup) |
-| 17 | Cloud Computing Essentials | S3 Static Website Hosting | [`projects/17-aws-s3-static-website-hosting-policy`](projects/17-aws-s3-static-website-hosting-policy) |
+| 06 | First NoSQL Database | DynamoDB |
+| 07 | File Systems in the Cloud | EFS |
+| 09 | Databases in Practice | RDS Multi-AZ, Read Replicas |
+| 17 | Cloud Computing Essentials | S3 Static Website Hosting |
 
 ### 🔐 Security & Networking
-| # | Project | AWS Services | Repo |
+| # | Project | AWS Services | 
 |---|---|---|---|
-| 10 | VPC Network Segmentation with Security Groups | VPC, Subnets, Security Groups | [`projects/10-aws-vpc-public-private-subnet-security`](projects/10-aws-vpc-public-private-subnet-security) |
-| 12 | Core Security Concepts | IAM Groups & Policies | [`projects/12-aws-iam-least-privilege-group-policies`](projects/12-aws-iam-least-privilege-group-policies) |
-| 13 | Connecting VPCs | VPC Peering, Route Tables | [`projects/13-aws-vpc-peering-cross-department-access`](projects/13-aws-vpc-peering-cross-department-access) |
+| 10 | VPC Network Segmentation with Security Groups | VPC, Subnets, Security Groups | 
+| 12 | Core Security Concepts | IAM Groups & Policies | 
+| 13 | Connecting VPCs | VPC Peering, Route Tables | 
 
 ### 🤖 Generative AI
-| # | Project | AWS Services | Repo |
+| # | Project | AWS Services | 
 |---|---|---|---|
-| 02 | Secure Conversational AI with Guardrails | Amazon Bedrock Guardrails | [`projects/02-aws-bedrock-guardrails-secure-chatbot`](projects/02-aws-bedrock-guardrails-secure-chatbot) |
-| 04 | Get Started with Generative AI | SageMaker AI, SageMaker Studio | [`projects/04-aws-sagemaker-foundation-model-prompting`](projects/04-aws-sagemaker-foundation-model-prompting) |
-| 05 | Generate Code for a Webpage | Bedrock, EC2, Systems Manager | [`projects/05-aws-bedrock-genai-static-site-update`](projects/05-aws-bedrock-genai-static-site-update) |
-| 08 | Explore the Amazon Bedrock Playgrounds | Bedrock Playgrounds, Prompt Management | [`projects/08-aws-bedrock-model-comparison-playground`](projects/08-aws-bedrock-model-comparison-playground) |
-| 11 | ⭐ Create an Enterprise Knowledge Assistant (RAG) | Bedrock Knowledge Bases, OpenSearch Serverless, Titan Embeddings | [`projects/11-aws-bedrock-rag-knowledge-assistant`](projects/11-aws-bedrock-rag-knowledge-assistant) |
+| 02 | Secure Conversational AI with Guardrails | Amazon Bedrock Guardrails | 
+| 04 | Get Started with Generative AI | SageMaker AI, SageMaker Studio | 
+| 05 | Generate Code for a Webpage | Bedrock, EC2, Systems Manager | 
+| 08 | Explore the Amazon Bedrock Playgrounds | Bedrock Playgrounds, Prompt Management | 
+| 11 | ⭐ Create an Enterprise Knowledge Assistant (RAG) | Bedrock Knowledge Bases, OpenSearch Serverless, Titan Embeddings | 
 
 ### 💰 Cost & Economics
-| # | Project | AWS Services | Repo |
+| # | Project | AWS Services |
 |---|---|---|---|
-| 16 | Cloud Economics | AWS Pricing Calculator | [`projects/16-aws-ec2-cost-estimation-elastic-scaling`](projects/16-aws-ec2-cost-estimation-elastic-scaling) |
+| 16 | Cloud Economics | AWS Pricing Calculator |
 
 ⭐ = highest-recommended project to review first (see [Master Strategy](docs/MASTER-STRATEGY.md))
 
