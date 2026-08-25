@@ -1,26 +1,3 @@
-# Create an Enterprise Knowledge Assistant
-
-### 1. Repository Name
-`aws-bedrock-rag-knowledge-assistant`
-
-### 2. Project Category
-Generative AI / Retrieval-Augmented Generation (RAG)
-
-### 3. Professional Portfolio Description
-Built a RAG-based enterprise knowledge assistant using an Amazon Bedrock knowledge base backed by Amazon OpenSearch Serverless as a vector store, enabling natural-language queries over sales documents stored in Amazon S3.
-
-### 4. Recommended Repository Structure
-```text
-aws-bedrock-rag-knowledge-assistant/
-├── README.md
-├── architecture/
-│   └── rag-knowledge-base-architecture.png
-└── documentation/
-    └── data-source-sync-notes.md
-```
-
-### 5. Complete README.md
-```markdown
 # Enterprise Knowledge Assistant with Amazon Bedrock Knowledge Bases (RAG)
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -89,21 +66,3 @@ sync and validation.
 - Document and tune the chunking strategy for better retrieval precision.
 - Add an evaluation set (question/expected-answer pairs) to measure retrieval quality quantitatively.
 - Apply least-privilege IAM/OpenSearch access policies and document them.
-```
-
-### 6–9. Details
-Diagram filename: `rag-knowledge-base-architecture.png`; Title: "RAG Knowledge Assistant — Bedrock Knowledge Base + OpenSearch Serverless"; GitHub caption: "RAG pipeline: S3 sources → Titan embeddings → OpenSearch Serverless → Nova Lite query response." LinkedIn caption: "Built a RAG-based enterprise knowledge assistant on Amazon Bedrock, then extended it with a second synced data source."
-
-### 10. LinkedIn Portfolio Description
-Built a Retrieval-Augmented Generation (RAG) knowledge assistant using Amazon Bedrock Knowledge Bases, Amazon Titan Embeddings, and Amazon OpenSearch Serverless as a vector store to answer natural-language questions over sales documents in S3, then independently added and synced a second data source. Skills: RAG architecture, Amazon Bedrock, OpenSearch Serverless, vector search. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-RAG design, Bedrock Knowledge Bases, OpenSearch Serverless, vector embeddings.
-
-### 12. Technical Weaknesses and Gaps
-This is one of the technically strongest projects in the set (multi-service RAG pipeline), but chunking strategy and access control are undocumented — both are exactly what a Solutions Architect interviewer would probe on a RAG project.
-
-### 13. Recommended Improvements
-Document chunking; add a small quantitative eval set; document IAM/OpenSearch access policy. This is a strong candidate for the **flagship / most-highlighted repo** in the portfolio (see Master Strategy).
-
----
