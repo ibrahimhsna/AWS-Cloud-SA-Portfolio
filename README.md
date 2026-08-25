@@ -92,17 +92,6 @@ Each project folder is self-contained and could be extracted into its own standa
 
 ---
 
-## Repository Philosophy
-
-This portfolio deliberately avoids two common pitfalls in student/practice portfolios:
-
-1. **Overclaiming.** These are AWS Skill Builder practice labs, not production systems. Every README says so upfront, and none claim "production-ready," "enterprise-grade," or invented performance metrics. This is a credibility choice, not a limitation — a portfolio that survives follow-up questions is worth more than one that doesn't.
-2. **Passive completion vs. independent work.** Each lab includes a guided checklist *and* a "DIY Goal" — an unguided extension task. That DIY step is the one piece of self-directed technical work in every project, so every README calls it out explicitly under **"What I Implemented (DIY / Unguided)."** This is the strongest signal of initiative across the whole portfolio and is highlighted consistently rather than buried.
-
-Where information wasn't available from the original lab materials (e.g., specific hyperparameters, encryption settings, IAM scoping details), it is explicitly marked **`Not documented / Requires clarification`** rather than invented. Several projects include a **Future Improvements** section identifying exactly what would need to be added to turn the lab into a fully reproducible, production-style build (e.g., real Terraform, committed scripts/notebooks, quantitative benchmarks).
-
----
-
 ## Skills Demonstrated Across the Portfolio
 
 | Category | Skills |
