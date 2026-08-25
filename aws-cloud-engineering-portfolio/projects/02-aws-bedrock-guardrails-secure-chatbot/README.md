@@ -1,26 +1,3 @@
-# Secure Conversational AI with Guardrails
-
-### 1. Repository Name
-`aws-bedrock-guardrails-secure-chatbot`
-
-### 2. Project Category
-Generative AI / AI Safety & Governance
-
-### 3. Professional Portfolio Description
-Implementation of Amazon Bedrock Guardrails to enforce content-safety and topic policies (denied topics, content filters, PII redaction, word filters) around a foundation-model-based conversational assistant.
-
-### 4. Recommended Repository Structure
-```text
-aws-bedrock-guardrails-secure-chatbot/
-├── README.md
-├── architecture/
-│   └── guardrails-request-flow.png
-└── documentation/
-    └── guardrail-policy-config.md
-```
-
-### 5. Complete README.md
-```markdown
 # Secure Conversational AI with Amazon Bedrock Guardrails
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -80,22 +57,3 @@ responsible-AI / AI governance fundamentals.
 ## Future Improvements
 - Add CloudWatch logging of guardrail interventions for auditability.
 - Test guardrail bypass/adversarial prompts to document edge-case behavior.
-```
-
-### 6–9. Technical Explanation / Services / File Naming / Diagram
-- Diagram filename: `guardrails-request-flow.png`; Title: "Bedrock Guardrails Enforcement Flow"; GitHub caption: "Request/response flow with Bedrock Guardrails policy enforcement." LinkedIn caption: "How I used Amazon Bedrock Guardrails to keep a conversational AI assistant on-topic and PII-safe."
-- Alternatives not selected: custom prompt-engineering-only safety layer (weaker, non-declarative) — Guardrails chosen for policy-based, auditable enforcement.
-
-### 10. LinkedIn Portfolio Description
-Implemented Amazon Bedrock Guardrails around a conversational AI assistant to enforce denied-topic, content-filter, PII-redaction, and word-filter policies, then extended it with a custom guardrail to block financial-advice queries. Skills: Amazon Bedrock, AI safety/governance, responsible AI. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-Bedrock Guardrails, AI governance policy design.
-
-### 12. Technical Weaknesses and Gaps
-No observability/logging of guardrail interventions documented; model choice unstated; no adversarial testing evidence beyond the one DIY policy.
-
-### 13. Recommended Improvements
-Add logging, document the specific FM, test adversarial prompts and record results.
-
----
