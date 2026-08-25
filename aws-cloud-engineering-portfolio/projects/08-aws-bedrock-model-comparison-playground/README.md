@@ -1,26 +1,3 @@
-# Explore the Amazon Bedrock Playgrounds
-
-### 1. Repository Name
-`aws-bedrock-model-comparison-playground`
-
-### 2. Project Category
-Generative AI / Model Evaluation & Prompt Management
-
-### 3. Professional Portfolio Description
-Used Amazon Bedrock's playgrounds to evaluate and compare multiple foundation models side-by-side, tune hyperparameters, and build a reusable, versioned prompt for model selection decisions.
-
-### 4. Recommended Repository Structure
-```text
-aws-bedrock-model-comparison-playground/
-├── README.md
-├── architecture/
-│   └── bedrock-playground-comparison-flow.png
-└── documentation/
-    └── prompt-versions.md
-```
-
-### 5. Complete README.md
-```markdown
 # Amazon Bedrock Playgrounds — Multi-Model Comparison and Prompt Management
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -74,21 +51,3 @@ prompt engineering, Prompt Management (versioning, variables).
 ## Future Improvements
 - Record the actual hyperparameter values and comparison outcomes for future reference/reuse.
 - Export the `ProductDescriptionWriter` prompt definition into the repo as a documented artifact.
-```
-
-### 6–9. Details
-Diagram filename: `bedrock-playground-comparison-flow.png`; Title: "Bedrock Playground Model Comparison and Prompt Management Flow"; GitHub caption: "Comparing foundation models and managing reusable prompts in Amazon Bedrock." LinkedIn caption: "Used Amazon Bedrock's compare mode and Prompt Management to evaluate foundation models and build a reusable, versioned prompt."
-
-### 10. LinkedIn Portfolio Description
-Used Amazon Bedrock's playgrounds and compare mode to evaluate foundation models side-by-side and tune hyperparameters, then created and versioned a reusable `ProductDescriptionWriter` prompt using Prompt Management. Skills: Amazon Bedrock, model evaluation, prompt engineering. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-Bedrock playgrounds, prompt management, model comparison methodology.
-
-### 12. Technical Weaknesses and Gaps
-No recorded outcome of the comparison (which model "won" and why) — currently this is a process description without a result, which weakens the analytical narrative.
-
-### 13. Recommended Improvements
-Document actual comparison outcomes and hyperparameter values used.
-
----
