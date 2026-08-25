@@ -13,6 +13,7 @@ This repository consolidates 17 individual AWS projects into a single, coherent 
 Each project lives in its own self-contained folder under projects with its own `README.md` and architecture diagram, so it can be read independently. This root README ties them together as one unified body of work.
 
 |||
+|---|---|
 | **Total projects** | 17 |
 | **Domains covered** | Compute & Availability · Data & Storage · Security & Networking · Generative AI · Cost & Economics |
 | **Platform** | AWS Skill Builder (SimuLearn) |
