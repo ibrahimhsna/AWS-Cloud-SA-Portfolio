@@ -1,26 +1,3 @@
-# Cloud Computing Essentials
-
-### 1. Repository Name
-`aws-s3-static-website-hosting-policy`
-
-### 2. Project Category
-Storage / Static Website Hosting
-
-### 3. Professional Portfolio Description
-Improved website reliability by migrating to Amazon S3 static website hosting, reviewing and scoping a bucket policy for public read access, and renaming the hosted object.
-
-### 4. Recommended Repository Structure
-```text
-aws-s3-static-website-hosting-policy/
-├── README.md
-├── architecture/
-│   └── s3-static-hosting-request-flow.png
-└── documentation/
-    └── bucket-policy.json
-```
-
-### 5. Complete README.md
-```markdown
 # S3 Static Website Hosting with Reviewed Bucket Policy
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -80,21 +57,3 @@ scoping, basic static site content management.
 - Add Amazon CloudFront in front of the S3 origin to get HTTPS support and edge caching — directly
   reusing the CloudFront pattern already demonstrated in Project 3.
 - Configure a custom domain via Route 53.
-```
-
-### 6–9. Details
-Diagram filename: `s3-static-hosting-request-flow.png`; Title: "S3 Static Website Hosting Request Flow with Bucket Policy"; GitHub caption: "S3 static website hosting with a reviewed, least-privilege bucket policy." LinkedIn caption: "Migrated a city information portal to S3 static website hosting with a reviewed, least-privilege bucket policy."
-
-### 10. LinkedIn Portfolio Description
-Migrated a web portal to Amazon S3 static website hosting, reviewing and confirming a least-privilege bucket policy scoped to read-only access, then independently renamed the hosted root object and verified continued availability. Skills: Amazon S3, static website hosting, bucket policies, least-privilege access. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-S3 static hosting, bucket policy review, least-privilege scoping.
-
-### 12. Technical Weaknesses and Gaps
-No HTTPS story (S3 website endpoints are HTTP-only without CloudFront) — for a "reliability" project this is worth explicitly flagging rather than omitting, since a reviewer who knows S3 will notice immediately.
-
-### 13. Recommended Improvements
-Add CloudFront for HTTPS/caching (ties directly to Project 3's pattern); add a custom domain.
-
----
