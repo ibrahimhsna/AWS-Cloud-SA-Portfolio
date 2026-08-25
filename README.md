@@ -26,7 +26,7 @@ Each project lives in its own self-contained folder under [`projects/`](projects
 ### 🖥️ Compute & Availability
 | # | Project | AWS Services | Repo |
 |---|---|---|---|
-| 01 | Auto-Healing and Scaling Applications | EC2 Auto Scaling, CloudWatch | [`projects/01-aws-ec2-auto-scaling-scheduled-policies`](projects/01-aws-ec2-auto-scaling-scheduled-policies) |
+| 01 | Auto-Healing and Scaling Applications | EC2 Auto Scaling, CloudWatch | [projects/01-aws-ec2-auto-scaling-scheduled-policies](https://github.com/ibrahimhsna/projects-01-aws-ec2-auto-scaling-scheduled-policies) |
 | 03 | Highly Available Web Applications | ALB, ASG, Route 53, CloudFront, RDS Multi-AZ | [`projects/03-aws-multi-az-ha-web-architecture`](projects/03-aws-multi-az-ha-web-architecture) |
 | 14 | Computing Solutions | EC2, Systems Manager | [`projects/14-aws-ec2-instance-type-scaling-ssm`](projects/14-aws-ec2-instance-type-scaling-ssm) |
 | 15 | Cloud First Steps | EC2, EBS, Multi-AZ | [`projects/15-aws-multi-az-ec2-user-data-deployment`](projects/15-aws-multi-az-ec2-user-data-deployment) |
