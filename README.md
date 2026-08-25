@@ -71,9 +71,6 @@ aws-cloud-engineering-portfolio/
 │
 ├── README.md                          ← You are here (portfolio overview + index)
 ├── LICENSE
-├── docs/
-│   └── MASTER-STRATEGY.md             ← Full portfolio strategy, recruiter positioning, publishing order
-│
 └── projects/
     ├── 01-aws-ec2-auto-scaling-scheduled-policies/
     │   ├── README.md                  ← Full project documentation
