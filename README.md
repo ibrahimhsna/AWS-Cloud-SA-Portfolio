@@ -8,7 +8,7 @@
 
 ## About This Repository
 
-This repository consolidates 17 individual AWS projects into a single, coherent portfolio — organized by domain, documented to a consistent standard, and indexed for easy review by recruiters, hiring managers, and technical interviewers.
+This repository consolidates 17 individual AWS projects into a single, coherent portfolio organized by domain, documented to a consistent standard, and indexed for easy review by recruiters, hiring managers, and technical interviewers.
 
 Each project lives in its own self-contained folder under projects with its own `README.md` and architecture diagram, so it can be read independently. This root README ties them together as one unified body of work.
 
