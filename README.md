@@ -2,7 +2,7 @@
 
 **A structured collection of 17 hands-on AWS projects spanning compute, networking, databases, storage, security, and generative AI.**
 
-> **Scope disclosure:** All 17 projects in this repository were completed as guided, scenario-based hands-on labs in **AWS Skill Builder (SimuLearn)**. Each lab includes a defined "Solution Request," a set of guided practice steps, and an independent, unguided extension task ("DIY Goal"). Every project below explicitly separates **guided work** from **independent work**, and documents scope honestly — no fabricated metrics, IaC, or production claims.
+> **Scope disclosure:** All 17 projects in this repository were completed as guided, scenario-based hands-on labs in **AWS Skill Builder (SimuLearn)**. Each lab includes a defined "Solution Request," a set of guided practice steps, and an independent, unguided extension task ("DIY Goal"). Every project below explicitly separates **guided work** from **independent work**, and documents scope honestly, no fabricated metrics, IaC, or production claims.
 
 ---
 
