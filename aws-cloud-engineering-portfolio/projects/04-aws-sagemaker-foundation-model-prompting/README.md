@@ -1,26 +1,3 @@
-# Get Started with Generative AI
-
-### 1. Repository Name
-`aws-sagemaker-foundation-model-prompting`
-
-### 2. Project Category
-Generative AI / Model Deployment & Prompt Engineering
-
-### 3. Professional Portfolio Description
-Deployed a foundation model on Amazon SageMaker AI and experimented with multiple prompting techniques via a SageMaker Studio notebook, comparing behavior across two different model endpoints.
-
-### 4. Recommended Repository Structure
-```text
-aws-sagemaker-foundation-model-prompting/
-├── README.md
-├── architecture/
-│   └── sagemaker-deployment-flow.png
-└── documentation/
-    └── prompting-techniques-notes.md
-```
-
-### 5. Complete README.md
-```markdown
 # Foundation Model Deployment and Prompting on Amazon SageMaker AI
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -77,21 +54,3 @@ prompt engineering fundamentals, comparative model evaluation.
 - Publish the actual notebook (.ipynb) with prompts and outputs included, rather than only a
   summary — this is the single highest-value addition for this repo.
 - Document endpoint instance types and estimated cost per hour.
-```
-
-### 6–9. Details
-Diagram filename: `sagemaker-deployment-flow.png`; Title: "SageMaker Studio Model Deployment and Prompting Flow"; GitHub caption: "Deploying and prompting foundation models via SageMaker Studio and the Python SDK." LinkedIn caption: "Deployed and compared multiple foundation models on Amazon SageMaker, including an independent Mistral Lite deployment."
-
-### 10. LinkedIn Portfolio Description
-Deployed foundation models (DeepSeek, LLaMA, and independently Mistral Lite) to Amazon SageMaker endpoints and used the SageMaker Python SDK from a Studio notebook to test and compare prompting techniques across models. Skills: Amazon SageMaker, prompt engineering, ML model deployment. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-SageMaker deployment, SDK usage, prompt engineering.
-
-### 12. Technical Weaknesses and Gaps
-No actual notebook/code artifact included — this is the weakest point of the repo as currently scoped; a documentation-only README about a coding exercise undercuts the "hands-on" claim.
-
-### 13. Recommended Improvements
-Attach the real `.ipynb`; add example prompts and outputs.
-
----
