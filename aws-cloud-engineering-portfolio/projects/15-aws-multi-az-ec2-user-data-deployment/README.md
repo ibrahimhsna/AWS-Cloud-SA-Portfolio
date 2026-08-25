@@ -1,24 +1,3 @@
-# Cloud First Steps
-
-### 1. Repository Name
-`aws-multi-az-ec2-user-data-deployment`
-
-### 2. Project Category
-Compute / Foundational EC2 & Multi-AZ Deployment
-
-### 3. Professional Portfolio Description
-Deployed a stabilization-system workload across two EC2 instances in separate Availability Zones, each configured with a user-data script to display instance details in a browser and store data to EBS.
-
-### 4. Recommended Repository Structure
-```text
-aws-multi-az-ec2-user-data-deployment/
-├── README.md
-└── architecture/
-    └── multi-az-instance-deployment.png
-```
-
-### 5. Complete README.md
-```markdown
 # Multi-AZ EC2 Deployment with User Data Scripting
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -80,21 +59,3 @@ patterns, EBS volume attachment.
 - Commit the actual user-data (bash) script to the repo for reproducibility.
 - Front both instances with an Application Load Balancer to turn this from "two independent
   instances" into an actual highly available pair (natural link to Project 3).
-```
-
-### 6–9. Details
-Diagram filename: `multi-az-instance-deployment.png`; Title: "Multi-AZ EC2 Deployment with User Data Bootstrapping"; GitHub caption: "Two EC2 instances deployed across separate AZs, each bootstrapped via user data." LinkedIn caption: "Deployed EC2 instances across two Availability Zones with user-data bootstrapping as a foundational HA pattern."
-
-### 10. LinkedIn Portfolio Description
-Launched an EC2 instance configured via user data to expose instance details, then independently deployed a second instance in a different Availability Zone within the same Region to establish a basic multi-AZ deployment pattern. Skills: Amazon EC2, user data scripting, multi-AZ fundamentals. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-EC2 launch/config, user data, multi-AZ basics.
-
-### 12. Technical Weaknesses and Gaps
-No load balancer ties the two instances together — as-is, this is "two independently running instances in two AZs," not yet a fault-tolerant pair; the README above is careful not to overstate this, and the repo should stay careful too.
-
-### 13. Recommended Improvements
-Add an ALB in front of both instances; commit the user-data script.
-
----
