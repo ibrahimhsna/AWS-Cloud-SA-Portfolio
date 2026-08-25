@@ -1,26 +1,3 @@
-# Databases in Practice
-
-### 1. Repository Name
-`aws-rds-multi-az-read-replica-setup`
-
-### 2. Project Category
-Databases / Relational (Amazon RDS)
-
-### 3. Professional Portfolio Description
-Migrated a workload to Amazon RDS with a Multi-AZ deployment for automated failover and a read replica to offload read traffic, plus configured automated backups.
-
-### 4. Recommended Repository Structure
-```text
-aws-rds-multi-az-read-replica-setup/
-├── README.md
-├── architecture/
-│   └── rds-multi-az-read-replica.png
-└── documentation/
-    └── backup-configuration.md
-```
-
-### 5. Complete README.md
-```markdown
 # Amazon RDS Multi-AZ Deployment with Read Replica
 
 > Guided hands-on lab (AWS Skill Builder / SimuLearn) with an independent extension task.
@@ -81,21 +58,3 @@ scaling, automated backup configuration.
 ## Future Improvements
 - Document the actual backup retention/window chosen and why.
 - Add connection-routing logic (e.g., via a proxy or app config) to actually separate read/write traffic.
-```
-
-### 6–9. Details
-Diagram filename: `rds-multi-az-read-replica.png`; Title: "RDS Multi-AZ with Read Replica Architecture"; GitHub caption: "RDS Multi-AZ failover paired with a dedicated read replica for read scaling." LinkedIn caption: "Configured Amazon RDS with Multi-AZ failover and a read replica to separate availability from read scalability."
-
-### 10. LinkedIn Portfolio Description
-Migrated a database workload to Amazon RDS with a Multi-AZ deployment for automated failover and configured backups, then independently created a `db.t3.xlarge` read replica to offload read traffic from the primary. Skills: Amazon RDS, Multi-AZ, read replicas, database administration. *(AWS Skill Builder hands-on lab.)*
-
-### 11. Skills Demonstrated
-RDS Multi-AZ, read replicas, automated backups.
-
-### 12. Technical Weaknesses and Gaps
-Database engine and backup retention window are unstated — both are basic facts a hiring manager will expect you to know cold about your own project.
-
-### 13. Recommended Improvements
-Document engine, instance class rationale, backup window; describe an actual failover test if performed.
-
----
